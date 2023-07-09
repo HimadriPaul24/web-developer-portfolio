@@ -11,11 +11,25 @@ body {
 .btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
-    border:0;
+    border: 0;
     color: white;
     font-size: 20px;
     font-weight: 700;
-    padding:15px 35px;
+    padding: 15px 35px;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.section-decription{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
 }
 
 /* nav related styles */
@@ -23,6 +37,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -44,4 +59,86 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* header releted style */
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    /* vertically align */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-secondary {
+    background: #FFF8F3;
+    ;
+    color: #FD6E0A;
+
+    /* font-size: 20px;
+    font-weight: 700;
+    padding:15px 35px; */
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.banner .profile-pic {
+    width: 500px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+    /* or margin-bottom-5px */
+
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    /* margin-top:0 */
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner-description {
+    margin-bottom: 30px;
+    color: #757575;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+/* main section styles */
+
+/* about section styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin:130px;
 }
